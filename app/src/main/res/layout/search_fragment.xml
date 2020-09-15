@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:background="@color/colorWhite">
+    <TextView
+        android:id="@+id/textServer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search_server" />
+
+    <Spinner
+        android:id="@+id/spinner_servers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:imeActionId="@android:integer/config_shortAnimTime"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/search_number"
+        />
+    <EditText
+        android:id="@+id/etOperator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:imeActionId="@android:integer/config_shortAnimTime"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/search_operator"
+        />
+
+    <EditText
+        android:id="@+id/search_ask1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:imeActionId="@android:integer/config_shortAnimTime"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/search_name0"
+        android:autofillHints="" />
+    <EditText
+        android:id="@+id/search_ask2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:imeActionId="@android:integer/config_shortAnimTime"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/search_name0"
+        android:autofillHints="" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search_searcher_name0" />
+    <CheckBox
+        android:id="@+id/searchCBgoogle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search_searcher_name1"
+        android:checked="true"/>
+    <CheckBox
+        android:id="@+id/searchCByandex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search_searcher_name2"
+        android:checked="true"/>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search_numbersOf_sites_name" />
+    <Spinner
+        android:id="@+id/spinner_numberOfsites"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search_deep_parse_name" />
+
+    <Spinner
+        android:id="@+id/spinner_deepParse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search_param_name0" />
+
+    <CheckBox
+        android:id="@+id/searchCBhtml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search_param_name1"
+        android:checked="true"/>
+
+    <CheckBox
+        android:id="@+id/searchCBbanners"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search_param_name2"
+        android:checked="true"/>
+
+    <CheckBox
+        android:id="@+id/searchCBredirect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search_param_name3"
+        android:checked="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/searchCBwords"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:checked="true"
+            android:text="@string/search_param_name5" />
+
+        <TextView
+            android:id="@+id/searchKeyWords"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:text="@string/search_words" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/manualParse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/search_param_name4" />
+        <CheckBox
+            android:id="@+id/dontParse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/search_param_name6" />
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/search_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search_btn" />
+
+    <TextView
+        android:id="@+id/search_ErrorText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:text="@string/search_errorText" />
+
+</LinearLayout>

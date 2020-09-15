@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">AdSeeker</string>
+    <!--MainActivity-->
+    <string name="mainActivity_btn_name0">Поиск</string>
+    <string name="mainActivity_btn_name1">Браузер</string>
+    <string name="mainActivity_btn_name2">Ссылки</string>
+    <string name="mainActivity_btn_name3">Ads</string>
+    <string name="mainActivity_btn_name5">Стоп</string>
+    <!--HtmlFragment-->
+    <string name="html_text0">Найдено результатов:</string>
+    <string name="html_text1">Страница:</string>
+    <string name="html_error0">Ошибка сети</string>
+    <!--AdsFragment-->
+    <string name="ads_text0">Запрос:</string>
+    <string name="ads_text1">Поисковик:</string>
+    <string name="ads_text2">Сайт:</string>
+    <string name="ads_text3">Нет файлов</string>
+    <string name="ads_text4">Страница:</string>
+    <!--searchFragment-->
+    <string name="search_server">Сервер</string>
+    <string name="search_name0">Запрос</string>
+    <string name="search_number">Номер</string>
+    <string name="search_operator">Оператор</string>
+    <string name="search_btn">Поиск</string>
+    <string name="search_errorText">Заполните поля номер и оператор</string>
+
+    <string name="search_searcher_name0">Поисковики</string>
+    <string name="search_searcher_name1">Google.com</string>
+    <string name="search_searcher_name2">Yandex.ru</string>
+    <string name="search_numbersOf_sites_name">Кол-во сайтов</string>
+    <string name="search_deep_parse_name">Глубина переходов</string>
+    <string name="search_param_name0">Параметры поиска</string>
+    <string name="search_param_name1">html</string>
+    <string name="search_param_name2">banners</string>
+    <string name="search_param_name3">redirect</string>
+    <string name="search_param_name5">words</string>
+    <string name="search_param_name4">Только поиск</string>
+    <string name="search_param_name6">Ручной поиск</string>
+    <string name="search_error_jsoup">Отсутствует подключение к сети или Ошибка подключения к сайту</string>
+    <string name="search_words">Ключ слова:</string>
+</resources>
